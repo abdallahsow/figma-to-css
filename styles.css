@@ -5,7 +5,29 @@
 }
 
 .app {
-    background: gray;
     width: 100vw;
     height: 100vh;
+}
+
+.nav-bar {
+    max-width: 1440px;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+}
+
+.nav-link-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #18191F;
+    text-decoration: none;
+}
+
+.nav-bar-list {
+    display: flex;
+    list-style: none;
+    gap: 32px;
 }

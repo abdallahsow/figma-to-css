@@ -7,6 +7,9 @@
 .app {
     width: 100vw;
     height: 100vh;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-bar {
@@ -40,4 +43,43 @@
     display: flex;
     list-style: none;
     gap: 12px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto auto;
+    max-width: 1440px;
+    padding: 0 20px; 
+}
+
+.hero content {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800px;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191f;
+    margin-top:70px;
+}
+
+.hero-button {
+    background-color:#8C30F5;
+    align-items: center;
+    padding: 12px 32px;
+    border-radius: 6px;
+    width: 154px;
+    height: 48px;
+    color: #FFFFFF;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
 }

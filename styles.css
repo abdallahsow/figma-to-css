@@ -47,10 +47,10 @@
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
     margin: 100px auto auto;
     max-width: 1440px;
     padding: 0 20px; 
+    flex-direction: column;
 }
 
 .hero content {
@@ -82,4 +82,17 @@
     font-size: 16px;
     line-height: 24px;
     cursor: pointer;
+}
+
+.hero-content-wrapper {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.hero-company-logos {
+    display: flex;
+    gap: 65px;
+    margin: auto;
+    align-items: center;
+    height: 110px;
 }

@@ -96,3 +96,43 @@
     align-items: center;
     height: 110px;
 }
+
+.feature-section {
+    display: flex;
+    flex-direction: column;
+    height: 136px;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.feature-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #18191F;
+    margin: 80px auto auto;
+}
+
+.feature-p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #18191F;
+    padding: 0 300px;
+}
+
+.column-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.column {
+    
+}

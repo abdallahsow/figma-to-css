@@ -1,62 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma to HTML & CSS</title>
-    <link href="styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap" rel="stylesheet">
-</head>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Figma to HTML & CSS</title>
+            <link href="styles.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+        </head>
 
-<body>
-   <div class="app">
-        <nav class="nav-bar">
-            <ul class="nav-bar-list">
-                <li><a class="nav-link-text" href="#">
-                    <img src="images/landify-logo.png" alt="landify's logo">
-                </a></li>
-                <li><a class="nav-link-text" href="#">About</a></li>
-                <li><a class="nav-link-text" href="#">Products</a></li>
-                <li><a class="nav-link-text" href="#">Pricing</a></li>
-                <li><a class="nav-link-text" href="#">Blog</a></li>
-                <li><a class="nav-link-text" href="#">Jobs</a></li>
-                <li><a class="nav-link-text" href="#">More</a></li>
-            </ul>
-            <ul class="nav-bar-list-right">
-                <li><a class="nav-link-text" href="#">
-                    <img src="images/googleplay-badge.png" alt="Google Play Badge">
-                </a></li>
-                <li><a class="nav-link-text" href="#">
-                    <img src="images/appstore-badge.png" alt="App store Badge">
-                </a></li>
-            </ul>
+        <body>
+        <div class="app">
+                <nav class="nav-bar">
+                    <ul class="nav-bar-list">
+                        <li><a class="nav-link-text" href="#">
+                            <img src="images/landify-logo.png" alt="landify's logo">
+                        </a></li>
+                        <li><a class="nav-link-text" href="#">About</a></li>
+                        <li><a class="nav-link-text" href="#">Products</a></li>
+                        <li><a class="nav-link-text" href="#">Pricing</a></li>
+                        <li><a class="nav-link-text" href="#">Blog</a></li>
+                        <li><a class="nav-link-text" href="#">Jobs</a></li>
+                        <li><a class="nav-link-text" href="#">More</a></li>
+                    </ul>
+                    <ul class="nav-bar-list-right">
+                        <li><a class="nav-link-text" href="#">
+                            <img src="images/googleplay-badge.png" alt="Google Play Badge">
+                        </a></li>
+                        <li><a class="nav-link-text" href="#">
+                            <img src="images/appstore-badge.png" alt="App store Badge">
+                        </a></li>
+                    </ul>
+                        
+                </nav>
+                <section class="hero-section">
+                    <div class="hero-content-wrapper">
+                        <div class="hero-content">
+                            <h1 class="hero-title">Organise projects.<br>
+                                Get more done.
+                            </h1>
+                            <button class="hero-button">Get Started</button>
+                        </div>
+
+                        <div class="hero-image-container">
+                            <img src="images/iphone.png" alt="hero image">
+                        </div>
+                    </div>
+                    <div class="hero-company-logos">
+                        <img src="images/logos/airbnb-logo.png" alt="Airbnb logo">
+                        <img src="images/logos/hubsport-logo.png" alt="Hubsport logo">
+                        <img src="images/logos/google-logo.png" alt="Google logo">
+                        <img src="images/logos/microsoft-logo.png" alt="Microsoft logo">
+                        <img src="images/logos/walmart-logo.png" alt="Walmart logo">
+                        <img src="images/logos/fedex-logo.png" alt="FedEx logo">
+                    </div>
+                </section>
                 
-        </nav>
-        <section class="hero-section">
-            <div class="hero-content-wrapper">
-                <div class="hero-content">
-                    <h1 class="hero-title">Organise projects.<br>
-                        Get more done.
-                    </h1>
-                    <button class="hero-button">Get Started</button>
+                <div class="feature-section">
+                    <h1 class="feature-heading">Tailor-made features</h1>
+                    <p class="feature-p">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
                 </div>
+                <section class="feature-content">
+                    <div class="first-row">
+                        <div>
+                            <h2 class="column-title">Robust workflow</h2>
+                            <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                        </div>
+                        
+                        <div>
+                            <h2 class="column-title">Flexibility</h2>
+                            <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                        </div>
 
-                <div class="hero-image-container">
-                    <img src="images/iphone.png" alt="hero image">
-                </div>
-            </div>
-            <div class="hero-company-logos">
-                <img src="images/logos/airbnb-logo.png" alt="Airbnb logo">
-                <img src="images/logos/hubsport-logo.png" alt="Hubsport logo">
-                <img src="images/logos/google-logo.png" alt="Google logo">
-                <img src="images/logos/microsoft-logo.png" alt="Microsoft logo">
-                <img src="images/logos/walmart-logo.png" alt="Walmart logo">
-                <img src="images/logos/fedex-logo.png" alt="FedEx logo">
-            </div>
-        </section>
-   </div>
-</body>
-</html>
+                        <div>
+                            <h2 class="column-title">User friendly</h2>
+                            <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                        </div>
+                        
+                        <div>
+                            <h2 class="column-title">Multiple layouts</h2>
+                            <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                        </div>
+
+                        <div>
+                            <h2 class="column-title">Better components</h2>
+                            <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                        </div>
+                        
+                        <div>
+                            <h2 class="column-title">Well organised</h2>
+                            <p class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                        </div>
+                    </div>
+                </section>
+        </div>
+        </body>
+    </html>

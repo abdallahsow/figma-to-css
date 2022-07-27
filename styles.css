@@ -201,19 +201,22 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  background: #D5FAFC;
+  background: #d5fafc;
+  margin-top: 65px;
 }
 
 .test-flexbox-1 {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-top: 120px;
 }
 
 .test-flexbox-2 {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-top: 170px;
 }
 
 .sub-test {
@@ -225,10 +228,22 @@
   flex-direction: column;
   gap: 32px;
   align-items: flex-start;
+  margin-left: 55px;
 }
 
 .second-sub-test {
   max-width: 445px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.third-sub-test {
+  max-width: 350px;
   border-radius: 8px;
   background-color: #ffffff;
   padding: 32px;

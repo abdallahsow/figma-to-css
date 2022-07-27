@@ -10,6 +10,7 @@
     background-image: url("images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .nav-bar {
@@ -53,7 +54,7 @@
     flex-direction: column;
 }
 
-.hero content {
+.hero-content {
     gap: 32px;
     display: flex;
     flex-direction: column;
@@ -97,13 +98,16 @@
     height: 110px;
 }
 
+.feature-part {
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
+}
+
 .feature-section {
     display: flex;
     flex-direction: column;
-    height: 136px;
-    align-items: center;
-    gap: 0 8px;
-    
+    gap: 8px 0;
 }
 
 .feature-heading {
@@ -123,7 +127,6 @@
     line-height: 32px;
     text-align: center;
     color: #18191F;
-    padding: 0 300px;
 }
 
 .column-title {
@@ -132,7 +135,7 @@
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    
+    padding: 25px 0 8px;
 }
 
 .column {
@@ -146,18 +149,17 @@
 .content {
     display: flex;
     flex-direction: column;
-    gap: 120px;
-    justify-content: space-between;
-    margin-top: 120px;
-    align-items: center;
+    gap: 65px;
 }
 
 .row {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
-.icons {
-    text-align: center;
-    margin: 0 250px;
+.list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

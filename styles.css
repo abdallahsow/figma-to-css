@@ -196,3 +196,56 @@
   line-height: 24px;
   color: #969bab;
 }
+
+.main-flexbox {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: #D5FAFC;
+}
+
+.test-flexbox-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.test-flexbox-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sub-test {
+  max-width: 350px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.second-sub-test {
+  max-width: 445px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.quotation {
+  display: flex;
+  align-items: flex-start;
+  gap: 0 16px;
+}

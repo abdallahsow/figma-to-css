@@ -249,3 +249,7 @@
   align-items: flex-start;
   gap: 0 16px;
 }
+
+.logo-dimensions {
+  height: 40px;
+}

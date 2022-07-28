@@ -166,6 +166,12 @@
   max-width: 350px;
 }
 
+.test-head {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .test-heading {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -203,6 +209,8 @@
   gap: 30px;
   background: #d5fafc;
   margin-top: 65px;
+  background-image: url(images/quotes.png);
+  background-repeat: no-repeat;
 }
 
 .test-flexbox-1 {
@@ -267,4 +275,18 @@
 
 .logo-dimensions {
   height: 40px;
+}
+
+.stat-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.stat-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }

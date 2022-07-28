@@ -371,3 +371,13 @@
 .just-button {
   text-decoration: none;
 }
+
+.perfect-button {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.vector-arrow {
+  height: 14px;
+}

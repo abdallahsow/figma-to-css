@@ -211,6 +211,7 @@
   margin-top: 65px;
   background-image: url(images/quotes.png);
   background-repeat: no-repeat;
+  padding-bottom: 80px;
 }
 
 .test-flexbox-1 {
@@ -297,12 +298,31 @@
   align-items: center;
 }
 
-.column-stat {
+.row-stat {
   display: flex;
   gap: 0 40px;
 }
 
+.column-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .stats {
   display: flex;
+  gap: 40px;
   justify-content: center;
+  margin-top: 80px;
+}
+
+.stat-head {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+.single-stat {
+  
 }

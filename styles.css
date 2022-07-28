@@ -310,19 +310,21 @@
 }
 
 .stats {
+  background: #fff;
   display: flex;
   gap: 40px;
-  justify-content: center;
-  margin-top: 80px;
+  justify-content: space-between;
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 80px auto;
 }
 
 .stat-head {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  
 }
 
 .single-stat {
-  
+  margin-right: 30px;
 }

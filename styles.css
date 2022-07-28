@@ -279,14 +279,14 @@
 }
 
 .stat-heading {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 40px;
 }
 
 .stat-p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -344,7 +344,7 @@
 }
 
 .headline-button {
-  color:#8c30f5;
+  color: #8c30f5;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -366,6 +366,7 @@
   font-size: 18px;
   line-height: 32px;
   max-width: 444px;
+  color: #18191f;
 }
 
 .just-button {
@@ -380,4 +381,28 @@
 
 .vector-arrow {
   height: 14px;
+}
+
+.fashion-p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  max-width: 540px;
+}
+
+.fashion-content {
+  display: flex;
+  gap: 150px;
+  max-width: 1100px;
+}
+
+.fashion-section {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  align-items: center;
+  background-color: #fff;
+  padding: 65px;
 }

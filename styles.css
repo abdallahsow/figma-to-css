@@ -413,11 +413,11 @@
 }
 
 .app-link {
-  font-family:'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  color:#18191f;
+  color: #18191f;
 }
 
 .project-heading {
@@ -435,7 +435,7 @@
 }
 
 .cta-project {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   gap: 48px;
   padding: 70px 0;
@@ -455,4 +455,57 @@
 
 .bottom-phone {
   padding-top: 90px;
+}
+
+.download-link {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.last-nav-link-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rights-reserved {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+  color: #d9dbe1;
+  text-decoration: none;
+}
+
+.last-bar-list {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.final-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.last-section {
+  background: #0b0d17;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 60px 100px;
+}
+
+.last-app-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #d9dbe1;
 }

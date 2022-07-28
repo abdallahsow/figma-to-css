@@ -406,3 +406,40 @@
   background-color: #fff;
   padding: 65px;
 }
+
+.cta-section {
+  background: #2ec5ce;
+}
+
+.badges {
+  display: flex;
+  gap: 15px;
+}
+
+.app-link {
+  font-family:'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color:#18191f;
+}
+
+.project-heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cta-project {
+  display: flex; 
+  flex-direction: column;
+  gap: 48px;
+}

@@ -443,3 +443,14 @@
   flex-direction: column;
   gap: 48px;
 }
+
+.mockups {
+  display: flex;
+  gap: 32px;
+}
+
+.cta-section {
+  display: flex;
+  gap: 75px;
+  margin: auto;
+}

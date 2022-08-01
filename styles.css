@@ -62,7 +62,7 @@
 
 .hero-title {
   font-family: "Inter", sans-serif;
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 72px;
   line-height: 98px;
   color: #18191f;
@@ -451,6 +451,7 @@
   gap: 75px;
   background: #2ec5ce;
   justify-content: space-around;
+  margin: 0 auto;
 }
 
 .bottom-phone {
@@ -508,4 +509,26 @@
   font-size: 18px;
   line-height: 28px;
   color: #d9dbe1;
+}
+
+@media (max-width: 1030px) {
+.feature-part, .main-flexbox, {
+  padding: 0 70px;
+}
+
+.headline-section {
+  padding: 80px;
+}
+
+.cta-section {
+  justify-content: center;
+}
+
+.cta-project {
+padding: 70px 60px;
+}
+
+.fashion-content {
+  align-items: center;
+}
 }

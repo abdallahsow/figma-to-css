@@ -530,5 +530,26 @@ padding: 70px 60px;
 
 .fashion-content {
   align-items: center;
+  max-width: 1024px;
+}
+
+.fashion-p {
+  max-width: 330px;
+}
+
+.colored-lambs {
+  max-width: 900px;
+}
+
+.stats {
+  padding: 0 70px;
+}
+
+.row-stat {
+  width: 375px;
+}
+
+.stat-icon {
+  width: 200px;
 }
 }

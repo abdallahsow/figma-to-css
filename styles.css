@@ -10,7 +10,7 @@
   overflow-x: hidden;
 }
 
-.first-section {
+.hero-background {
   background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,6 +99,7 @@
   margin: auto;
   align-items: center;
   height: 110px;
+  max-width: 900px;
 }
 
 .feature-part {
@@ -511,4 +512,8 @@
   font-size: 18px;
   line-height: 28px;
   color: #d9dbe1;
+}
+
+@media screen and (min-width: 1440px){
+
 }

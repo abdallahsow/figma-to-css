@@ -589,11 +589,32 @@
   .hero-image-container {
     width: 150px;
   }
+
+  .content {
+    width: 300px;
+    margin-left: 0;
+  }
+
+  .column-title {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 380px) {
   .hero-image-container {
     width: 100px;
+  }
+
+  .column-title {
+    font-size: 16px;
+  }
+
+  .column {
+    font-size: 12px;
+  }
+
+  .feature {
+    font-size: 16px;
   }
 }
 

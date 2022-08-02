@@ -13,7 +13,7 @@
 .hero-background {
   background-image: url("images/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .nav-bar {
@@ -515,5 +515,9 @@
 }
 
 @media screen and (min-width: 1440px){
+  .hero-background {
+    background-size: cover;
+    
 
+  }
 }

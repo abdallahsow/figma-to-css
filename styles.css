@@ -544,6 +544,7 @@
 @media screen and (max-width: 970px) {
   .hero-title {
     font-size: 50px;
+    line-height: 50px;
   }  
 }
 
@@ -559,10 +560,50 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .hero-image-container {
+    width: 200px;
+  }
+
+  .hero-content {
+    padding-bottom: 50px;
+  }
+
+  .hero-title {
+    margin-top: 40px;
+  }
+
+  .hero-company-logos {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
 
 @media screen and (max-width: 450px) {
   .feature-part {
     margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero-image-container {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero-image-container {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hero-image-container {
+    width: 50px;
+  }
+
+  .hero-title {
+    font-size: 36px;
   }
 }
 

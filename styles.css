@@ -547,8 +547,22 @@
   }  
 }
 
+@media screen and (max-width: 920px) {
+  .hero-company-logos {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .prim-nav, .nav-bar-list-right {
     display: none;
   }
 }
+
+
+@media screen and (max-width: 450px) {
+  .feature-part {
+    margin-top: 70px;
+  }
+}
+

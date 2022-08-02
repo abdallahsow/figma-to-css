@@ -35,6 +35,13 @@
   text-decoration: none;
 }
 
+.prim-nav {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  align-items: center;
+}
+
 .nav-bar-list {
   display: flex;
   list-style: none;
@@ -534,13 +541,6 @@
   }  
 }
 
-@media screen and (max-width: 1030px) {
-  .hero-company-logos {
-    max-width: 900px;
-    margin: auto;
-  }  
-}
-
 @media screen and (max-width: 970px) {
   .hero-title {
     font-size: 50px;
@@ -548,5 +548,7 @@
 }
 
 @media screen and (max-width: 850px) {
-
+  .prim-nav, .nav-bar-list-right {
+    display: none;
+  }
 }

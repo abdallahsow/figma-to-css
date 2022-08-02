@@ -7,10 +7,13 @@
 .app {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
+}
+
+.first-section {
   background-image: url("images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
 }
 
 .nav-bar {

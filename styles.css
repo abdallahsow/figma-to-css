@@ -525,7 +525,7 @@
   .hero-background {
     background-size: contain;
     background-position: center;
-  }  
+  }
 }
 
 @media screen and (max-width: 1550px) and (max-width: 1350px) {
@@ -538,14 +538,22 @@
 @media screen and (max-width: 1220px) {
   .hero-background {
     background-size: cover;
-  }  
+  }
 }
 
 @media screen and (max-width: 970px) {
   .hero-title {
     font-size: 50px;
     line-height: 50px;
-  }  
+  }
+
+  .main-flexbox {
+    padding: 30px 100px;
+  }
+
+  .test-flexbox-2 {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 920px) {
@@ -555,7 +563,8 @@
 }
 
 @media screen and (max-width: 850px) {
-  .prim-nav, .nav-bar-list-right {
+  .prim-nav,
+  .nav-bar-list-right {
     display: none;
   }
 }
@@ -563,6 +572,10 @@
 @media screen and (max-width: 600px) {
   .hero-image-container {
     width: 200px;
+  }
+
+  .main-flexbox {
+    padding: 30px 100px;
   }
 
   .hero-content {
@@ -576,6 +589,18 @@
   .hero-company-logos {
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .sub-test {
+    margin-left: 0;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .test-heading {
+    font-size: 32px;
   }
 }
 
@@ -598,6 +623,29 @@
   .column-title {
     font-size: 20px;
   }
+
+  .test-heading {
+    line-height: 36px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .test-p {
+    font-size: 12px;
+  }
+
+  .logo-dimensions {
+    width: 80px;
+  }
+
+  .author {
+    font-size: 14px;
+  }
+
+  .work-status {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -613,7 +661,7 @@
     font-size: 12px;
   }
 
-  .feature {
+  .feature-p {
     font-size: 16px;
   }
 }
@@ -627,4 +675,3 @@
     font-size: 36px;
   }
 }
-

@@ -289,6 +289,14 @@
   height: 40px;
 }
 
+.test-heading-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+}
+
 .stat-heading {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -554,11 +562,20 @@
   .test-flexbox-2 {
     margin-top: 100px;
   }
+
+  .stat-heading {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 920px) {
   .hero-company-logos {
     flex-wrap: wrap;
+  }
+
+  .test-heading-1 {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 
@@ -566,6 +583,13 @@
   .prim-nav,
   .nav-bar-list-right {
     display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .test-heading-1 {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
@@ -590,6 +614,20 @@
     margin-top: 40px;
     margin-bottom: 20px;
   }
+
+  .test-heading-1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .test-p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .stat-p {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -602,11 +640,31 @@
   .test-heading {
     font-size: 32px;
   }
+
+  .test-heading-1 {
+    font-size: 14px;
+  }
+
+  .test-p {
+    font-size: 10px;
+  }
+
+  .stat-heading {
+    font-size: 12px;
+  }
+
+  .stat-p {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .feature-part {
     margin-top: 70px;
+  }
+
+  .stat-icon-img {
+    width: 20px;
   }
 }
 
@@ -628,11 +686,32 @@
     line-height: 36px;
     font-size: 24px;
   }
+
+  .test-heading-1 {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .test-p {
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .test-p {
-    font-size: 12px;
+    font-size: 7px;
+  }
+
+  .test-heading-1 {
+    font-size: 9px;
+  }
+
+  .stat-p {
+    font-size: 6px;
+  }
+
+  .stat-heading {
+    font-size: 8px;
   }
 
   .logo-dimensions {

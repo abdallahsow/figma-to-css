@@ -534,9 +534,10 @@
   background: #0b0d17;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 450px;
   margin: auto;
-  padding: 60px 100px;
+  padding: 60px 130px;
+  justify-content: center;
 }
 
 .last-app-link {
@@ -625,6 +626,12 @@
   
   .upper-phone {
     width: 200px;
+  }
+
+  .last-section {
+    justify-content: space-between;
+    gap: 0;
+    padding: 60px 50px;
   }
 }
 
@@ -716,6 +723,25 @@
   .upper-phone {
     width: 150px;
   }
+
+  .last-nav-link-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .rights-reserved {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .last-app-link {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .last-badge {
+    width: 100px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -744,6 +770,25 @@
   
   .upper-phone {
     width: 120px;
+  }
+
+  .last-nav-link-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .rights-reserved {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .last-app-link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .last-badge {
+    width: 70px;
   }
 }
 
@@ -811,6 +856,33 @@
 
   .steve-phone {
     height: 300px;
+  }
+
+  .last-nav-link-text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .rights-reserved {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .last-app-link {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .last-badge {
+    width: 50px;
+  }
+
+  .landify {
+    width: 70px;
+  }
+
+  .final-list, .last-bar-list, .download-link {
+    gap: 12px;
   }
 }
 
@@ -907,6 +979,10 @@
   .steve-phone {
     width: 200px;
   }
+
+  .last-section {
+    padding: 60px 30px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -973,6 +1049,30 @@
   
   .upper-phone {
     width: 60px;
+  }
+
+  .last-nav-link-text {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .rights-reserved {
+    font-size: 6px;
+    line-height: 8px;
+  }
+
+  .last-app-link {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .landify {
+    width: 50px;
+  }
+
+  .last-section {
+    padding: 60px 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {

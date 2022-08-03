@@ -419,6 +419,15 @@
   max-width: 540px;
 }
 
+.fashion-p-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  max-width: 540px;
+}
+
 .fashion-content {
   display: flex;
   gap: 150px;
@@ -477,7 +486,8 @@
   display: flex;
   gap: 75px;
   background: #2ec5ce;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 0 50px;
 }
 
 .bottom-phone {
@@ -588,6 +598,36 @@
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .project-heading {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .fashion-p-1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .app-link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .badge {
+    width: 100px;
+  }
+
+  .bottom-phone {
+    width: 200px;
+  }
+  
+  
+  .upper-phone {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 970px) {
   .hero-title {
     font-size: 50px;
@@ -648,6 +688,34 @@
   .nav-bar-list-right {
     display: none;
   }
+
+  .project-heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .fashion-p-1 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .app-link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .badge {
+    width: 50px;
+  }
+
+  .bottom-phone {
+    width: 150px;
+  }
+  
+  
+  .upper-phone {
+    width: 150px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -657,6 +725,25 @@
 
   .fashion-content {
     gap: 50px;
+  }
+
+  .project-heading {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .app-link {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .bottom-phone {
+    width: 120px;
+  }
+  
+  
+  .upper-phone {
+    width: 120px;
   }
 }
 
@@ -790,6 +877,30 @@
     line-height: 16px;
     width: 300px;
   }
+
+  .project-heading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .fashion-p-1 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .app-link {
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .bottom-phone {
+    width: 80px;
+  }
+  
+  
+  .upper-phone {
+    width: 80px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -854,6 +965,14 @@
     line-height: 16px;
     width: 200px;
   }
+
+   .bottom-phone {
+    width: 60px;
+  }
+  
+  
+  .upper-phone {
+    width: 60px;
 }
 
 @media screen and (max-width: 400px) {

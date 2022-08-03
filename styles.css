@@ -622,8 +622,7 @@
   .bottom-phone {
     width: 200px;
   }
-  
-  
+
   .upper-phone {
     width: 200px;
   }
@@ -673,7 +672,7 @@
     font-size: 12px;
     line-height: 20px;
   }
-  
+
   .steve-phone {
     width: 300px;
   }
@@ -718,8 +717,7 @@
   .bottom-phone {
     width: 150px;
   }
-  
-  
+
   .upper-phone {
     width: 150px;
   }
@@ -766,8 +764,7 @@
   .bottom-phone {
     width: 120px;
   }
-  
-  
+
   .upper-phone {
     width: 120px;
   }
@@ -881,7 +878,9 @@
     width: 70px;
   }
 
-  .final-list, .last-bar-list, .download-link {
+  .final-list,
+  .last-bar-list,
+  .download-link {
     gap: 12px;
   }
 }
@@ -920,7 +919,7 @@
 
   .description-title {
     font-size: 12px;
-    line-height: 16px;  
+    line-height: 16px;
   }
 
   .headline-button {
@@ -968,8 +967,7 @@
   .bottom-phone {
     width: 80px;
   }
-  
-  
+
   .upper-phone {
     width: 80px;
   }
@@ -1042,11 +1040,10 @@
     width: 200px;
   }
 
-   .bottom-phone {
+  .bottom-phone {
     width: 60px;
   }
-  
-  
+
   .upper-phone {
     width: 60px;
   }

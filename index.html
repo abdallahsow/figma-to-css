@@ -17,60 +17,62 @@
   <body>
     <div class="app">
       <section class="first-section">
-        <nav class="nav-bar">
-          <ul class="nav-bar-list">
-            <li>
-              <a class="nav-link-text" href="#">
-                <img src="images/landify-logo.png" alt="landify's logo" />
-              </a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">About</a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">Products</a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">Pricing</a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">Blog</a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">Jobs</a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">More</a>
-            </li>
-          </ul>
-          <ul class="nav-bar-list-right">
-            <li>
-              <a class="nav-link-text" href="#">
-                <img
-                  src="images/googleplay-badge.png"
-                  alt="Google Play Badge"
-                />
-              </a>
-            </li>
-            <li>
-              <a class="nav-link-text" href="#">
-                <img src="images/appstore-badge.png" alt="App store Badge" />
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <section class="hero-section">
-          <div class="hero-content-wrapper">
-            <div class="hero-content">
-              <h1 class="hero-title">
-                Organise projects.<br />
-                Get more done.
-              </h1>
-              <button class="hero-button">Get Started</button>
-            </div>
-
-            <div class="hero-image-container">
-              <img src="images/iphone.png" alt="hero image" />
+        <div class="hero-background">
+          <nav class="nav-bar">
+            <ul class="nav-bar-list">
+              <li>
+                <a class="nav-link-text" href="#">
+                  <img src="images/landify-logo.png" alt="landify's logo" />
+                </a>
+              </li>
+                <div class="prim-nav">
+                  <li>
+                    <a class="nav-link-text" href="#">About</a>
+                  </li>
+                  <li>
+                    <a class="nav-link-text" href="#">Products</a>
+                  </li>
+                  <li>
+                    <a class="nav-link-text" href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a class="nav-link-text" href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a class="nav-link-text" href="#">Jobs</a>
+                  </li>
+                  <li>
+                    <a class="nav-link-text" href="#">More</a>
+                  </li>
+                </div>
+            </ul>
+            <ul class="nav-bar-list-right">
+              <li>
+                <a class="nav-link-text" href="#">
+                  <img
+                    src="images/googleplay-badge.png"
+                    alt="Google Play Badge"
+                  />
+                </a>
+              </li>
+              <li>
+                <a class="nav-link-text" href="#">
+                  <img src="images/appstore-badge.png" alt="App store Badge" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <section class="hero-section">
+            <div class="hero-content-wrapper">
+              <div class="hero-content">
+                <h1 class="hero-title">
+                  Organise projects.<br />
+                  Get more done.
+                </h1>
+                <button class="hero-button">Get Started</button>
+              </div>
+              <img class="hero-image-container" src="images/iphone.png" alt="hero image" />
+             
             </div>
           </div>
           <div class="hero-company-logos">
@@ -257,7 +259,7 @@
 
       <section class="stats">
         <div class="stat-head">
-          <h2 class="test-heading">
+          <h2 class="test-heading-1">
             Our 18 years of<br />
             achievements.
           </h2>
@@ -268,7 +270,8 @@
           <div class="column-stat">
             <!-- first stat -->
             <div class="stat-icon">
-              <img
+              <img 
+                class="stat-icon-img"
                 src="images/feature-icons/feature-icon-1.png"
                 alt="stat icon 1"
               />
@@ -281,6 +284,7 @@
             <!-- second stat -->
             <div class="stat-icon">
               <img
+                class="stat-icon-img"
                 src="images/feature-icons/feature-icon-5.png"
                 alt="stat icon 5"
               />
@@ -295,6 +299,7 @@
             <!-- third stat -->
             <div class="stat-icon">
               <img
+                class="stat-icon-img"
                 src="images/feature-icons/feature-icon-4.png"
                 alt="stat icon 4"
               />
@@ -307,6 +312,7 @@
             <!-- fourth stat -->
             <div class="stat-icon">
               <img
+                class="stat-icon-img"
                 src="images/feature-icons/feature-icon-7.png"
                 alt="stat icon 7"
               />
@@ -321,7 +327,11 @@
 
       <section class="headline-section">
         <div class="phone-setting">
-          <img src="images/phone-mockup.png" alt="iphone's half screen" />
+          <img 
+            class="steve-phone" 
+            src="images/phone-mockup.png" 
+            alt="iphone's half screen" 
+          />
         </div>
         <div class="headline-news">
           <h3 class="description-title">Headline</h3>
@@ -346,7 +356,7 @@
 
       <section class="fashion-section">
         <div class="fashion-content">
-          <h3 class="description-title">
+          <h3 class="description-title-1">
             Enter the world of all<br />
             fashion trends
           </h3>
@@ -356,7 +366,7 @@
             scelerisque non tincidunt sit lectus senectus.
           </p>
         </div>
-        <img src="images/fashion-image.png" alt="multicolor lambs" />
+        <img class="lamb" src="images/fashion-image.png" alt="multicolor lambs" />
       </section>
 
       <section class="cta-section">
@@ -366,7 +376,7 @@
               Manage your projects<br />
               from your mobile
             </h2>
-            <p class="fashion-p">
+            <p class="fashion-p-1">
               Download the app to manage your projects, keep track of the
               progress and complete tasks without procastinating. Stay on track
               and complete on time!
@@ -375,14 +385,14 @@
           <div class="project-description">
             <p class="app-link">Get the App</p>
             <div class="badges">
-              <img src="images/googleplay-badge.png" alt="Google Play badge" />
-              <img src="images/appstore-badge.png" alt="Apple Store badge" />
+              <img class="badge" src="images/googleplay-badge.png" alt="Google Play badge" />
+              <img class="badge" src="images/appstore-badge.png" alt="Apple Store badge" />
             </div>
           </div>
         </div>
 
         <div class="mockups">
-          <img src="images/phone-mockup-1.png" alt="first phone mockup" />
+          <img class="upper-phone" src="images/phone-mockup-1.png" alt="first phone mockup" />
           <img
             class="bottom-phone"
             src="images/phone-mockup-2.png"
@@ -395,7 +405,7 @@
         <nav>
           <ul class="final-list">
             <li style="list-style: none">
-              <img src="images/landify-logo.png" alt="landify's logo" />
+              <img class="landify" src="images/landify-logo.png" alt="landify's logo" />
             </li>
             <div class="last-bar-list">
               <li>
@@ -434,8 +444,8 @@
         </nav>
         <div class="download-link">
           <p class="last-app-link">Get the App</p>
-          <img src="images/googleplay-badge.png" alt="Google Play badge" />
-          <img src="images/appstore-badge.png" alt="Apple Store badge" />
+          <img class="last-badge" src="images/googleplay-badge.png" alt="Google Play badge" />
+          <img class="last-badge" src="images/appstore-badge.png" alt="Apple Store badge" />
         </div>
       </section>
     </div>
